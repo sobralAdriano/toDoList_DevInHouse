@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    box-sizing: border-box;
+    /* box-sizing borderbox: recomendaçao video do youtube/ncesar */
+    padding: 0;
+    /* padding espaçamento interno */
+    margin: 0;
+    /* padding espaçamento externo */
+    font-family: 'Poppins', sans-serif;
+    /* Definimos a primeira fonte e a segunda é caso aja algum erro com a primeira. sans-serif está presente em qualquer navegador. */
+  }
+  #addTask {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    /* absolute posiciona acima dos outros */
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
+    background: #918c8cf0;
+    padding: 30px;
+    width: 600px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  header {
+    width: 100%;
+    display: flex;
+    background: lightblue;
+    color: #fff;
+    padding: 20px;
+    justify-content: center;
+    /* alinhamos o conteudo ao centro */
+    font-weight: bold;
+    /* estilo da fonte como bold */
+  }
+  h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #add-task{
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin:20px;
+    
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-add-task {
+    border: 1px solid #240f0f;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    background:#4c739e;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  #taskDescription {
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    width: 300px;
+    margin-left: 10px;
+  
+  }
+  #taskForm button {
+    margin-top: 10px;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    cursor: pointer;
+  }
+  .alert {
+    display: none;
+  }
+  .task-card {
+    display: flex;
+    width: 500px;
+    border: 1px solid #eee;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  }
+  .content img {
+    width: 15px;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+  .task-details {
+    width: 100%;
+  }
+  #realized{
+    width: 30px;
+    height: 20px;
+  }
+  
