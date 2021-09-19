@@ -101,7 +101,10 @@
     width: 100%;
   }
   #realized{
-    width: 30px;
+    width: 15px;
+    height: 15px;
+  }
+  #deleteButton{
     height: 20px;
   }
   
