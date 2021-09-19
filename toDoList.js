@@ -49,12 +49,12 @@ taskForm.addEventListener('submit', (event) => {
 window.onload = function () {
   showTasks();
 };
-//Não consegui funcionar esta função
+
 function taskChecked(){
   const taskIncluded = document.querySelector('.taskIncluded');
 
   if (document.getElementById('realized').checked){
         
-       taskIncluded.style ='text-decoration-line: line-through';
+    taskIncluded.style ='text-decoration-line: line-through';
   }
 }
